@@ -1,0 +1,46 @@
+
+nums1 = [1,2,3,0,0,0];
+nums2 = [2,5,6];
+
+function merge(nums1, m, nums2, n) {
+
+    // track position here in array using increment
+	num1_position = 0;
+	num2_position = 0;
+
+    nums1_copy = nums1;
+
+	forEach(nums2 as two) {
+        // a. two = 1, position 0
+        // b. two = 2, position 1
+
+		forEach (nums1_copy as one) {
+			// a. one = 2, position 0
+            // b. one = 5, position 
+            
+            if (one === 0) [
+                // remove this position from the nums1 array
+                // using this num1_position at this position
+                nums1[num1_position].remove();
+            ]
+
+			if (two > one) {
+				// a. false
+                // b. true
+
+				// insert two into the position before one in the array
+                nums1[num1_position].insertBefore(one);
+                // a. nums1 = [1,2,3,0,0,0]
+                // b. nums1 = [1,2,5,3,0,0,0]
+			
+			}
+
+            num1_position++;
+
+		}
+
+		num2_position++;
+
+	}
+
+}
